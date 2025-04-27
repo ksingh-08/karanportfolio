@@ -1,37 +1,17 @@
-
-import Approach from "@/components/Approach";
-import Clients from "@/components/Clients";
-import Experience from "@/components/Experience";
+import About from "@/components/About";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import { NavbarDemo } from "@/components/NavbarDemo";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import HeroSectionOne from "@/components/ui/hero-section-demo-1";
-import { navItems } from "@/data";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
     <>
-    <Hero/>
-    <RecentProjects/>
-    <Footer/>
-    <main className="relative bg-black-100 flex max-w-full justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
-      
-      <div className="max-w-7xl w-full">
-        
-        
-        {/* <Grid/> */}
-        
-        {/* <Clients/> */}
-        {/* <Experience/> */}
-        {/* <Approach/> */}
-        
-      </div>
-    </main>
+      <Hero />
+      <RecentProjects />
+      <Skills />
+      <About />
+      <Footer />
     </>
   );
 }

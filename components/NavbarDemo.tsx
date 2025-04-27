@@ -32,12 +32,6 @@ export function NavbarDemo() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const navItems =  [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
-  ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -48,10 +42,25 @@ export function NavbarDemo() {
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />
-          <NavItems items={navItems} />
+          
           <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            {navItems.map((item, idx) => (
+              <NavbarButton 
+                key={`desktop-nav-${idx}`} 
+                variant="secondary" 
+                href={item.link}
+              >
+                {item.name}
+              </NavbarButton>
+            ))}
+            <NavbarButton 
+              variant="primary" 
+              href="https://drive.google.com/file/d/1WANj1lv5eyt0YZa2qMAbCcKvVHMXh8dx/view" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Resume
+            </NavbarButton>
           </div>
         </NavBody>
 
@@ -84,15 +93,11 @@ export function NavbarDemo() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
+                href="https://drive.google.com/file/d/1WANj1lv5eyt0YZa2qMAbCcKvVHMXh8dx/view"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Login
-              </NavbarButton>
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Book a call
+                Resume
               </NavbarButton>
             </div>
           </MobileNavMenu>

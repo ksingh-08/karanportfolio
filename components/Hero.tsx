@@ -119,7 +119,7 @@ const Hero = () => {
           </motion.h1>
         </div>
         {/* Tech Stack */}
-        <div className="w-full mt-8">
+        <div className="w-full mt-10">
           <h3 className="text-sm font-semibold text-gray-400 mb-4">
             Tech Stack
           </h3>
@@ -141,7 +141,7 @@ const Hero = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-wrap justify-center gap-5 mt-10">
+        {/* <div className="flex flex-wrap justify-center gap-5 mt-10">
           <motion.a
             href="#projects"
             className="relative group overflow-hidden w-44 h-12 flex items-center justify-center rounded-xl bg-gradient-to-br from-purple-600 via-blue-600 to-purple-600 bg-size-200 bg-pos-0 px-8 py-3 font-medium text-white shadow-md transition-all duration-500 hover:bg-pos-100 hover:shadow-lg hover:shadow-purple-500/20"
@@ -172,11 +172,11 @@ const Hero = () => {
               </svg>
             </span>
           </motion.a>
-        </div>
+        </div> */}
 
         {/* Social Links */}
         <motion.div
-          className="flex gap-4 mt-6"
+          className="flex gap-4 mt-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}

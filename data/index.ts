@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     id: 1,
     title: "LeetCode Coach",
     des: "AI-powered assistant for solving LeetCode problems with step-by-step guidance.",
-    img: "/projects/leetcode-coach.png",
+    img: "/leetcode.png",
     iconLists: ["/icons/typescript.svg", "/icons/react.svg", "/icons/ai.svg"],
     link: "https://github.com/ksingh-08/LeetcodeCoach.git"
   },
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     id: 2,
     title: "ThinkFlow",
     des: "Real-time collaborative note-taking app with multi-user editing and live presence sync.",
-    img: "/projects/thinkflow.png",
+    img: "/thinkflow.png",
     iconLists: ["/icons/typescript.svg", "/icons/nextjs.svg", "/icons/firebase.svg"],
     link: "https://github.com/ksingh-08/thinkflow",
     liveLink: "https://thinkflow-navy.vercel.app/"
@@ -103,7 +103,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Blog Application",
     des: "Full-stack blog platform with content creation, publishing, and serverless backend using Cloudflare Workers.",
-    img: "/projects/blog-app.png",
+    img: "/blog.png",
     iconLists: ["/icons/react.svg", "/icons/prisma.svg", "/icons/postgresql.svg"],
     link: "https://github.com/ksingh-08/blog-medium-app",
     liveLink: "https://blog-medium-app-three.vercel.app/signup"
@@ -112,9 +112,9 @@ export const projects: Project[] = [
     id: 4,
     title: "Portfolio Website",
     des: "Personal portfolio website built with Next.js, TailwindCSS, and Aceternity UI for a sleek, responsive design.",
-    img: "/projects/portfolio.png",
+    img: "/portfolio.png",
     iconLists: ["/icons/nextjs.svg", "/icons/tailwindcss.svg", "/icons/aceternity.svg"],
-    link: "https://github.com/ksingh-08/portfolio",
+    link: "https://github.com/ksingh-08/karanportfolio.git",
     liveLink: "https://portfolio-chi-teal-22.vercel.app/"
   }
 ];
@@ -221,6 +221,60 @@ export const workExperience = [
     thumbnail: "/work.svg",
   },
 ];
+
+export const skills = [
+  {
+    id: 1,
+    category: "Frontend",
+    technologies: [
+      { name: "React.js", icon: "/icons/react.svg", proficiency: 90 },
+      { name: "Next.js", icon: "/icons/nextjs.svg", proficiency: 85 },
+      { name: "TypeScript", icon: "/icons/typescript.svg", proficiency: 80 },
+      { name: "JavaScript", icon: "/icons/javascript.svg", proficiency: 95 },
+      { name: "TailwindCSS", icon: "/icons/tailwindcss.svg", proficiency: 90 },
+      { name: "HTML/CSS", icon: "/icons/html.svg", proficiency: 95 },
+    ],
+  },
+  {
+    id: 2,
+    category: "Backend",
+    technologies: [
+      { name: "Node.js", icon: "/icons/nodejs.svg", proficiency: 85 },
+      { name: "Express.js", icon: "/icons/express.svg", proficiency: 80 },
+      { name: "PostgreSQL", icon: "/icons/postgresql.svg", proficiency: 75 },
+      { name: "MongoDB", icon: "/icons/mongodb.svg", proficiency: 80 },
+      { name: "Prisma", icon: "/icons/prisma.svg", proficiency: 75 },
+      { name: "Firebase", icon: "/icons/firebase.svg", proficiency: 70 },
+    ],
+  },
+  {
+    id: 3,
+    category: "Tools & Others",
+    technologies: [
+      { name: "Git/GitHub", icon: "/icons/github.svg", proficiency: 85 },
+      { name: "Docker", icon: "/icons/docker.svg", proficiency: 70 },
+      { name: "Vercel", icon: "/icons/vercel.svg", proficiency: 80 },
+      { name: "Figma", icon: "/icons/figma.svg", proficiency: 75 },
+      { name: "AI Integration", icon: "/icons/ai.svg", proficiency: 80 },
+      { name: "RESTful APIs", icon: "/icons/api.svg", proficiency: 85 },
+    ],
+  },
+];
+
+export const aboutMe = {
+  introduction: "I'm Karan Singh, a passionate full-stack developer with a focus on creating beautiful, responsive, and user-friendly web applications.",
+  background: "With a strong foundation in modern web technologies and a keen eye for design, I strive to build applications that not only function flawlessly but also provide exceptional user experiences.",
+  expertise: "My expertise spans across the entire web development stack, from crafting intuitive user interfaces with React and Next.js to building robust backend systems with Node.js and various databases.",
+  approach: "I approach each project with a problem-solving mindset, focusing on clean code, scalability, and performance optimization. I believe in continuous learning and staying updated with the latest industry trends and best practices.",
+  interests: "Beyond coding, I have a passion for creative content creation, which has allowed me to develop a unique perspective on user experience and visual storytelling in my web development projects.",
+  goals: "I'm constantly seeking opportunities to collaborate on challenging projects that push my boundaries and allow me to grow as a developer while delivering exceptional value to clients and users.",
+  education: "B.Tech in Computer Science and Engineering",
+  university: "The LNM Institute of Information Technology, Jaipur",
+  graduation: "2024",
+  location: "Jaipur, Rajasthan, India",
+  languages: ["English (Professional)", "Hindi (Native)"],
+  hobbies: ["Content Creation", "UI/UX Design", "Learning New Technologies", "Problem Solving"],
+};
 
 export const socialMedia = [
   {
