@@ -119,45 +119,6 @@ export const projects: Project[] = [
   }
 ];
 
-export const testimonials = [
-  
-  {
-    quote:
-      "As the event head of TEDx LNMIIT, I had the pleasure of witnessing Karan's exceptional talent as a content creator. His ability to conceptualize and produce engaging narratives played a pivotal role in shaping our event's success. His dedication to storytelling and his creative vision enriched our content, captivating our audience and leaving a lasting impression. Karan consistently demonstrated professionalism and innovation, making him a valuable asset to our team.",
-    name: "Keshav Agarwal",
-    title: "Event Head - TEDxLNMIIT",
-    img:"/keshavsir.jpg",
-  },
-  {
-    quote:
-      "As the content lead at DevOps Insiders, I had the privilege of collaborating with Karan, who consistently demonstrated outstanding creativity and expertise as a content creator. His ability to craft compelling narratives and deliver engaging content was instrumental in enhancing our online presence and engaging our audience effectively. Karan's dedication to quality and his innovative approach to content creation significantly contributed to our success in delivering valuable insights to our community.",
-    name: "Aditya Singh",
-    title: "Ex-Content Lead at Devops Insiders",
-    img:"/singhsir.jpg",
-  },
-  {
-    quote:
-      "As a member of Vivacity, Karan showcased remarkable talent as a content creator. His ability to craft engaging narratives and produce compelling content was instrumental in bringing our cultural fest to life. His creative approach and dedication to excellence were invaluable to our team, leaving a lasting impact on our audience.",
-    name: "Vuuren Mohanty",
-    title: "Ex-Creative Head of Vivacity LNMIIT, Jaipur",
-    img:"/montysir.jpg",
-  },
-  // {
-  //   quote:
-  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-  //   name: "Michael Johnson",
-  //   title: "Director of AlphaStream Technologies",
-  //   img:"",
-  // },
-  // {
-  //   quote:
-  //     "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-  //   name: "Michael Johnson",
-  //   title: "Director of AlphaStream Technologies",
-  //   img:"",
-  // },
-];
-
 export const companies = [
   {
     id: 1,
