@@ -84,14 +84,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "LeetCode Coach",
-    des: "AI-powered assistant for solving LeetCode problems with step-by-step guidance.",
-    img: "/leetcode.png",
-    iconLists: ["/icons/typescript.svg", "/icons/react.svg", "/icons/ai.svg"],
-    link: "https://github.com/ksingh-08/LeetcodeCoach.git"
+    title: "PDF Query System with RAG",
+    des: "An AI-powered system that allows you to ask questions directly to any PDF document and receive accurate, relevant answers using Retrieval-Augmented Generation (RAG) with LangChain and Qdrant.",
+    img: "/pdfrag.png",
+    iconLists: ["/icons/langchain.svg", "/icons/openai.svg", "/icons/qdrant.svg", "/icons/ai.svg"],
+    link: "https://github.com/ksingh-08/ragpdf.git"
   },
   {
-    id: 2,
+    id: 1,
     title: "ThinkFlow",
     des: "Real-time collaborative note-taking app with multi-user editing and live presence sync.",
     img: "/thinkflow.png",
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     liveLink: "https://thinkflow-navy.vercel.app/"
   },
   {
-    id: 3,
+    id: 2,
     title: "Blog Application",
     des: "Full-stack blog platform with content creation, publishing, and serverless backend using Cloudflare Workers.",
     img: "/blog.png",
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     liveLink: "https://blog-medium-app-three.vercel.app/signup"
   },
   {
-    id: 4,
+    id: 3,
     title: "Portfolio Website",
     des: "Personal portfolio website built with Next.js, TailwindCSS, and Aceternity UI for a sleek, responsive design.",
     img: "/portfolio.png",
