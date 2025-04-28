@@ -302,7 +302,7 @@ const Skills = () => {
                   Professional Growth
                 </h4>
                 <p className="text-gray-300 text-center max-w-3xl mx-auto text-lg mb-8">
-                  I'm passionate about continuous learning and staying at the forefront of technology trends. Currently exploring advanced state management techniques, serverless architectures, and integrating AI to enhance web application capabilities.
+                  I&apos;m passionate about continuous learning and staying at the forefront of technology trends. Currently exploring advanced state management techniques, serverless architectures, and integrating AI to enhance web application capabilities.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 mt-8">

@@ -42,7 +42,7 @@ const About = () => {
           {/* Introduction */}
           <div className="mb-8">
             <p className="text-lg text-white">
-              I'm <span className="font-semibold">Karan Singh</span>, a passionate Software Developer currently pursuing a B.Tech in <span className="text-purple-400">Computers and Communication Engineering</span> at The LNM Institute of Information Technology (LNMIIT).
+              I&apos;m <span className="font-semibold">Karan Singh</span>, a passionate Software Developer currently pursuing a B.Tech in <span className="text-purple-400">Computers and Communication Engineering</span> at The LNM Institute of Information Technology (LNMIIT).
               I specialize in building full-stack web applications, crafting real-time collaborative tools, and integrating AI-driven solutions.
             </p>
           </div>
@@ -58,7 +58,7 @@ const About = () => {
           {/* Experience */}
           <div className="mb-10">
             <p className="text-lg text-white">
-              Beyond coding, I'm actively involved in leadership activities. As the <span className="text-purple-400">Creative Head</span> of Vivacity, LNMIIT’s Cultural Fest, I led a team of 20+ creatives, producing branding and media content that reached over 7 lakh views and 7k+ followers.
+              Beyond coding, I&#39;m actively involved in leadership activities. As the <span className="text-purple-400">Creative Head</span> of Vivacity, LNMIIT&#39;s Cultural Fest, I led a team of 20+ creatives, producing branding and media content that reached over 7 lakh views and 7k+ followers.
             </p>
           </div>
 

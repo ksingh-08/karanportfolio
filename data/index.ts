@@ -115,7 +115,7 @@ export const projects: Project[] = [
     img: "/portfolio.png",
     iconLists: ["/icons/nextjs.svg", "/icons/tailwindcss.svg", "/icons/aceternity.svg"],
     link: "https://github.com/ksingh-08/karanportfolio.git",
-    liveLink: "https://portfolio-chi-teal-22.vercel.app/"
+    liveLink: "https://ksingh.xyz/"
   }
 ];
 

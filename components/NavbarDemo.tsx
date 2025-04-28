@@ -55,7 +55,7 @@ export function NavbarDemo() {
             ))}
             <NavbarButton 
               variant="primary" 
-              href="https://drive.google.com/file/d/1WANj1lv5eyt0YZa2qMAbCcKvVHMXh8dx/view" 
+              href="https://drive.google.com/file/d/1bIkyfBvY8-Qn1ZuKbdmqz2f8phvuCe7T/view" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -93,7 +93,7 @@ export function NavbarDemo() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
-                href="https://drive.google.com/file/d/1WANj1lv5eyt0YZa2qMAbCcKvVHMXh8dx/view"
+                href="https://drive.google.com/file/d/1bIkyfBvY8-Qn1ZuKbdmqz2f8phvuCe7T/view"
                 target="_blank"
                 rel="noopener noreferrer"
               >

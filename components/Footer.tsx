@@ -58,7 +58,7 @@ const Footer = () => {
       showFloatingIcons={true}
       className="min-h-screen flex flex-col justify-center items-center relative overflow-hidden"
     >
-      <footer className="w-full relative pb-16 md:pb-10" id="contact">
+      <footer className="w-full mt-24 relative pb-16 md:pb-10" id="contact">
         {/* Animated background gradient */}
         <div className="absolute inset-0  blur-xl opacity-30 animate-pulse"></div>
 
