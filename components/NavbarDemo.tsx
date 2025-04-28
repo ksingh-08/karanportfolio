@@ -36,8 +36,8 @@ export function NavbarDemo() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="relative w-full pt-8">
-      <div className={`fixed top-4 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md shadow-md' : 'bg-transparent'}`}>
+    <div className="relative pt-8">
+      <div className={`fixed top-4 left-0 right-0 z-50 transition-all duration-300 bg-transparent`}>
       <Navbar className="max-w-7xl mx-auto">
         {/* Desktop Navigation */}
         <NavBody>
